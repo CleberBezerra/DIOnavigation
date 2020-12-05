@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\CRB\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add eslint -D
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\PuTTY\;C:\php\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\CRB\AppData\Local\Android\Sdk;C:\Users\CRB\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\CRB\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\CRB\AppData\Roaming\npm;C:\Users\CRB\AppData\Local\Microsoft\WindowsApps;C:\Users\CRB\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\CRB\DIO_Git\react-native_cli\DIOnavigation\node_modules\file-uri-to-path\test'
+
+npm manifest: 
+  {
+    "name": "DIOnavigation",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "react": "16.13.1",
+      "react-native": "0.63.4"
+    },
+    "devDependencies": {
+      "@babel/core": "7.12.9",
+      "@babel/runtime": "7.12.5",
+      "@react-native-community/eslint-config": "1.1.0",
+      "babel-jest": "25.5.1",
+      "eslint": "6.8.0",
+      "jest": "25.5.4",
+      "metro-react-native-babel-preset": "0.59.0",
+      "react-test-renderer": "16.13.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
